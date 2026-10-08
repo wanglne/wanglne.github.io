@@ -455,6 +455,7 @@ body.homepage .author__urls .author__link-placeholder {
 }
 body.homepage .author-link--googlescholar i { color: #6db6f8; }
 body.homepage .author__huggingface-icon { font-style: normal; }
+body.homepage .author__wechat i { color: #07c160; }
 body.homepage .author__email summary {
     display: grid;
     grid-template-columns: 1.85em minmax(0, 1fr) 0.75em;
@@ -506,8 +507,14 @@ body.homepage .author__urls .author__email-options a {
 }
 body.homepage .page__content { overflow-wrap: anywhere; }
 @media (max-width: 924px) {
+    body.homepage .sidebar { position: relative; }
+    body.homepage .author__urls-wrapper { position: static; }
     body.homepage .author__urls {
         width: min(280px, calc(100vw - 28px));
+        left: 0;
+        right: auto;
+        top: calc(100% + 8px);
+        margin-top: 0;
     }
 }
 @media (min-width: 925px) {

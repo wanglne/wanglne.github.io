@@ -53,10 +53,12 @@
           </details>
         </li>
       {% endif %}
-      {% include author-academic-links.html %}
       {% if author.WeChat %}
-        <li class="author__wechat"><a href="{{ author.WeChat }}"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat</a></li>
+        {% assign wechat_url = author.WeChat %}
+        {% unless wechat_url contains "://" %}{% assign wechat_url = wechat_url | prepend: base_path %}{% endunless %}
+        <li class="author__wechat"><a href="{{ wechat_url }}" title="WeChat QR code"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat</a></li>
       {% endif %}
+      {% include author-academic-links.html %}
       
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.arxiv %}

@@ -1,17 +1,17 @@
 locale                   : "en-US"
-title                    : "wanglne"
+title                    : "Wanglne / Homepage"
 title_separator          : "-"
 name                     : "Yi Wang"
-description              : &description "My homepage."
+description              : &description "Academic homepage of Yi Wang, featuring research, publications, and projects."
 url                      : "https://wanglne.github.io"
 baseurl                  : ""
 repository               : "wanglne/wanglne.github.io"
 
 author:
   avatar           : "dog.jpg"
-  name             : "Yi Wang"
+  name             : "Yi Wang 王一"
   pronouns         :
-  bio              : "Student and researcher."
+  bio              : "He/Him"
   location         : "Shanghai, China"
   employer         :
   employer_url     :
@@ -35,7 +35,7 @@ author:
   kaggle           :
   stackoverflow    :
 
-  WeChat           : 
+  WeChat           : "/images/wechat.jpg"
   linkedin         :
   bilibili         :
   twitter          :
