@@ -13,8 +13,8 @@ author:
   pronouns         :
   bio              : "Student and researcher."
   location         : "Shanghai, China"
-  employer         : "ShanghaiTech University"
-  employer_url     : "https://sist.shanghaitech.edu.cn/"
+  employer         :
+  employer_url     :
   uri              :
   email            : "wangyi2024@shanghaitech.edu.cn"
 
@@ -29,7 +29,8 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "wanglne"
+  huggingface      :
   kaggle           :
   stackoverflow    :
 

@@ -7,11 +7,8 @@ main:
   - title: "Experience"
     url: "/#experience"
 
-  - title: "Pub"
+  - title: "Publications"
     url: "/#publications"
-
-  - title: "Project"
-    url: "/#projects"
 
   - title: "Awards"
     url: "/#awards"
@@ -19,10 +16,7 @@ main:
   - title: "Services"
     url: "/#services"
     
-  - title: "Talks"
-    url: "/#talks"
-    
-  - title: "CV-En"
+  - title: "CV"
     url: "/files/weidongtang_resume.pdf"
 
   # - title: "CV-Cn"

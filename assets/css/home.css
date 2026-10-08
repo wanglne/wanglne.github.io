@@ -444,6 +444,17 @@ html.mac-font-light body.homepage :is(.main-heading, svg, canvas, i[class], .ico
 body.homepage .sidebar .author__name { font-size: 1.2em; }
 body.homepage .sidebar p,
 body.homepage .sidebar li { font-size: 0.875em; }
+body.homepage .author__urls li { white-space: normal; }
+body.homepage .author__urls a {
+    grid-template-columns: 1.85em minmax(0, 1fr);
+    overflow-wrap: anywhere;
+}
+body.homepage .author__urls .author__link-placeholder {
+    grid-template-columns: 1.85em minmax(0, 1fr);
+    overflow-wrap: anywhere;
+}
+body.homepage .author-link--googlescholar i { color: #6db6f8; }
+body.homepage .author__huggingface-icon { font-style: normal; }
 body.homepage .page__content { overflow-wrap: anywhere; }
 @media (min-width: 925px) {
     body.homepage { --homepage-left-bias: clamp(20px, 1.9vw, 34px); }
@@ -471,8 +482,8 @@ body.homepage .page__content { overflow-wrap: anywhere; }
         max-width: none;
         min-width: 0;
         height: auto;
-        max-height: calc(100vh - 70px - 2em);
-        overflow-y: auto;
+        max-height: none;
+        overflow: visible;
         float: none;
         margin: 0;
         padding: 0;
@@ -491,6 +502,9 @@ body.homepage .page__content { overflow-wrap: anywhere; }
     }
     body.homepage .masthead__menu-item a { margin-left: 0; margin-right: 22px; }
     body.homepage .sidebar .author__desktop { display: block; }
+}
+@media (min-width: 925px) and (max-height: 600px) {
+    body.homepage #main > .sidebar { position: static; }
 }
 @media (max-width: 767px) {
     body.homepage #main {

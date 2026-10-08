@@ -1,0 +1,30 @@
+{% assign profile_keys = "googlescholar,github,huggingface,orcid" | split: "," %}
+{% for profile_key in profile_keys %}
+  {% assign profile_url = author[profile_key] %}
+  {% case profile_key %}
+    {% when "googlescholar" %}
+      {% assign profile_label = "Google Scholar" %}
+      {% assign profile_icon = "fas fa-fw fa-graduation-cap icon-pad-right" %}
+    {% when "github" %}
+      {% assign profile_label = "GitHub" %}
+      {% assign profile_icon = "fab fa-fw fa-github icon-pad-right" %}
+      {% if profile_url and profile_url != "" %}
+        {% unless profile_url contains "://" %}
+          {% assign profile_url = profile_url | prepend: "https://github.com/" %}
+        {% endunless %}
+      {% endif %}
+    {% when "huggingface" %}
+      {% assign profile_label = "Hugging Face" %}
+      {% assign profile_icon = "icon author__huggingface-icon" %}
+    {% when "orcid" %}
+      {% assign profile_label = "ORCID" %}
+      {% assign profile_icon = "ai ai-fw ai-orcid icon-pad-right" %}
+  {% endcase %}
+  {% if profile_url or page.url == "/" %}
+    <li class="author-link--{{ profile_key }}">
+      {% if profile_url and profile_url != "" %}<a href="{{ profile_url | escape }}" target="_blank" rel="noopener">{% else %}<span class="author__link-placeholder">{% endif %}
+        <i class="{{ profile_icon }}" aria-hidden="true">{% if profile_key == "huggingface" %}🤗{% endif %}</i>{{ profile_label }}
+      {% if profile_url and profile_url != "" %}</a>{% else %}</span>{% endif %}
+    </li>
+  {% endif %}
+{% endfor %}
