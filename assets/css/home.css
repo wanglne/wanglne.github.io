@@ -10,6 +10,22 @@
         scroll-margin-top: 80px;
     }
   
+    body.homepage .inline-affiliation {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25em;
+        vertical-align: -0.12em;
+        white-space: nowrap;
+    }
+    body.homepage .inline-affiliation img {
+        width: auto;
+        height: 1.2em;
+        max-width: none;
+        flex: none;
+        margin: 0;
+        object-fit: contain;
+    }
+
     /* Dated news rows and compact experience cards. */
     .news-box {
         max-height: 220px;
