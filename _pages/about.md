@@ -130,7 +130,6 @@ Education
       <div class="timeline__main">
         <div class="timeline__title">ShanghaiTech University</div>
         <div class="timeline__meta">Ph.D. Student</div>
-        <div class="timeline__meta">Advised by <a href="https://wwj95.github.io/">Prof. Wenjie Wang</a></div>
       </div>
       <div class="timeline__logo timeline__logo--wordmark">
         <img src="/images/shanghaitech-logo.svg" width="1057" height="283" alt="ShanghaiTech University logo" loading="lazy" decoding="async">
@@ -172,6 +171,39 @@ Experience
 </div>
 
 
+Services
+--------
+<ul class="service-list">
+  <li class="service-row">
+    <span class="service-label">Conference Reviewer</span>
+    <ul class="service-content service-items">
+      <li>ICLR 2027</li>
+      <li>ACL ARR 2025, 2026</li>
+    </ul>
+  </li>
+  <li class="service-row">
+    <span class="service-label service-label--journal">Journal Reviewer</span>
+    <ul class="service-content service-items">
+      <li>Information Fusion<span class="service-ranking">（中科院一区 TOP，JCR Q1）</span></li>
+      <li>Pattern Recognition<span class="service-ranking">（中科院一区 TOP，JCR Q1）</span></li>
+    </ul>
+  </li>
+  <li class="service-row">
+    <span class="service-label service-label--opensource">Open-source Contributor</span>
+    <ul class="service-content service-items">
+      <li>
+      <div class="service-model">
+        <a class="service-brand" href="https://huggingface.co/ByteDance"><img src="/images/bytedance-logo.png" width="200" height="200" alt="" loading="lazy" decoding="async">ByteDance</a>
+        <span class="service-model__separator" aria-hidden="true">/</span>
+        <a class="service-brand" href="https://huggingface.co/ByteDance/Ouro-1.4B-Thinking"><img class="service-logo--ouro" src="/images/ouro-logo-transparent.png" width="1940" height="811" alt="" loading="lazy" decoding="async">Ouro-1.4B-Thinking</a>
+      </div>
+      <div class="service-note">Hugging Face model repository contributor</div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
 Awards
 --------
 <ul class="detail-list">
@@ -180,16 +212,4 @@ Awards
 <li><span class="detail-date">June 3025</span><span class="detail-content">Outstanding Contributor to Instant Noodle Consumption Efficiency.</span></li>
 <li><span class="detail-date">Dec 3024</span><span class="detail-content">GPU Emotional Damage Scholarship (Full Funding).</span></li>
 <li><span class="detail-date">Aug 3024</span><span class="detail-content">Ranked Top 0.1% Worldwide in “I’ll Fix It Tomorrow”.</span></li>
-</ul>
-
-
-
-Services
---------
-<ul class="detail-list">
-<li><span class="detail-date">June 3026 – Present</span><span class="detail-content">Chief Coffee Consumption Officer, Midnight Research Lab.</span></li>
-<li><span class="detail-date">Jan 3026 – Present</span><span class="detail-content">Full-time Debugger of Problems Created by Myself.</span></li>
-<li class="detail-list__undated"><span class="detail-content">Reviewer for Journal of Unfinished Projects.</span></li>
-<li class="detail-list__undated"><span class="detail-content">Area Chair for Conference on Last-Minute Submissions (CLMS).</span></li>
-<li class="detail-list__undated"><span class="detail-content">Volunteer Therapist for Burned-out GPUs.</span></li>
 </ul>
