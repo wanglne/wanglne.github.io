@@ -3,7 +3,7 @@
   "short_name": "wanglne",
   "icons": [
     {
-      "src": "dog-icon.png",
+      "src": "dog-icon-round.png",
       "type": "image/png",
       "purpose": "any",
       "sizes": "192x192"
