@@ -7,6 +7,13 @@
     const papers = list.querySelectorAll('.publication-entry');
     const emptyMessage = document.querySelector('[data-publication-empty]');
 
+    papers.forEach(function(paper) {
+      const badge = paper.querySelector('.publication-venue-badge');
+      if (badge && paper.dataset.status === 'preprint') {
+        badge.textContent = 'Preprint';
+      }
+    });
+
     function applyFilter(status) {
       let visibleCount = 0;
       papers.forEach(function(paper) {

@@ -4,11 +4,14 @@ main:
   - title: "News"
     url: "/#news"
 
-  - title: "Experience"
-    url: "/#experience"
-
   - title: "Publications"
     url: "/#publications"
+
+  - title: "Education"
+    url: "/#education"
+
+  - title: "Experience"
+    url: "/#experience"
 
   - title: "Awards"
     url: "/#awards"

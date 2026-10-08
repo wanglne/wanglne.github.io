@@ -9,66 +9,30 @@ redirect_from:
 ---
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-I am a CS Ph.D. student in the <a class="inline-affiliation" href="https://wwj95.github.io/"><img src="/images/aspirelab-transparent.png" alt="" width="43" height="18">ASPIRE Lab</a> at [ShanghaiTech University](https://sist.shanghaitech.edu.cn), advised by Prof. [Wenjie Wang](https://wwj95.github.io/).
+I am a CS Ph.D. student in the <a class="inline-affiliation" href="https://wwj95.github.io/"><img src="/images/aspirelab-icon.png" alt="" width="18" height="18">ASPIRE Lab</a> at [ShanghaiTech University](https://sist.shanghaitech.edu.cn), advised by Prof. [Wenjie Wang](https://wwj95.github.io/). Prior to that, I received my bachelor's degree from [Northwest A&F University](https://www.nwsuaf.edu.cn/) in 2024.
 
 News
 ---------------
 <div class="news-box">
   <ul class="news-list">
 
-<li><time class="news-date" datetime="2026-10">Oct 2026</time><span class="news-content">🚀🚀 Submitted a paper 3 minutes before the deadline.</span></li>
+<li><time class="news-date" datetime="2026-10">[2026.10]</time><span class="news-content">🚀🚀 Submitted a paper 3 minutes before the deadline.</span></li>
 
-<li><time class="news-date" datetime="2025-12">Dec 2025</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
-<li><time class="news-date" datetime="2026-09">Sep 2026</time><span class="news-content">📉📉 My GPU resigned before I did.</span></li>
-<li><time class="news-date" datetime="2026-08">Aug 2026</time><span class="news-content">☕☕ Survived on coffee for 72 consecutive hours.</span></li>
+<li><time class="news-date" datetime="2025-12">[2025.12]</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
+<li><time class="news-date" datetime="2026-09">[2026.09]</time><span class="news-content">📉📉 My GPU resigned before I did.</span></li>
+<li><time class="news-date" datetime="2026-08">[2026.08]</time><span class="news-content">☕☕ Survived on coffee for 72 consecutive hours.</span></li>
 
-<li><time class="news-date" datetime="2026-05">May 2026</time><span class="news-content">🎉🎉 I begin my internship at Weijia.</span></li>
-<li><time class="news-date" datetime="2025-12">Dec 2025</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
+<li><time class="news-date" datetime="2026-05">[2026.05]</time><span class="news-content">🎉🎉 I begin my internship at Weijia.</span></li>
+<li><time class="news-date" datetime="2025-12">[2025.12]</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
 
-<li><time class="news-date" datetime="2026-07">July 2026</time><span class="news-content">🎉🎉 Promoted from intern to “experienced intern”.</span></li>
-<li><time class="news-date" datetime="2026-06">June 2026</time><span class="news-content">🤡🤡 Accidentally deleted the production database.</span></li>
+<li><time class="news-date" datetime="2026-07">[2026.07]</time><span class="news-content">🎉🎉 Promoted from intern to “experienced intern”.</span></li>
+<li><time class="news-date" datetime="2026-06">[2026.06]</time><span class="news-content">🤡🤡 Accidentally deleted the production database.</span></li>
 
-<li><time class="news-date" datetime="2026-05">May 2026</time><span class="news-content">🎉🎉 I begin my internship at Haidilao.</span></li>
-<li><time class="news-date" datetime="2025-12">Dec 2025</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
+<li><time class="news-date" datetime="2026-05">[2026.05]</time><span class="news-content">🎉🎉 I begin my internship at Haidilao.</span></li>
+<li><time class="news-date" datetime="2025-12">[2025.12]</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
 
-<li><time class="news-date" datetime="2024-10">Oct 2024</time><span class="news-content">🎉🎉 I began my studies at MIT.</span></li>
+<li><time class="news-date" datetime="2024-10">[2024.10]</time><span class="news-content">🎉🎉 I began my studies at MIT.</span></li>
   </ul>
-</div>
-
-Experience
---------------
-
-<div class="experience-container">
-
-  <div class="experience-card">
-      <img src="images/haidilao.png" alt="Haidilao logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Haidilao</strong>
-          <span class="experience-date">May 2026 – Present</span>
-          LLM Engineer Intern advised by <a href="https://wd7ang.github.io/"><em>Weidong Tang</em></a><br>
-          <span style="color:#888;">Main contribution: teaching hotpot robots to understand human emotions.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/weijia.png" alt="Weijia logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Weijia</strong>
-          <span class="experience-date">Jan 2026 – Mar 2026</span>
-          Machine Learning Intern advised by <a href="https://selen-suyue.github.io/"><em>Yue Su</em></a><br>
-          <span style="color:#888;">Successfully reduced GPU happiness by 97%.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/mit.png" alt="MIT logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Massachusetts Institute of Technology</strong>
-          <span class="experience-date">Sep 2023 – Present</span>
-          Rank 5/99, B.E at <a href="https://ste.xidian.edu.cn/"><em>School of Telecommunication Engineering</em></a><br>
-          <span style="color:#888;">Research interests include large models, multimodal learning, and surviving deadlines.</span>
-      </div>
-  </div>
 </div>
 
 
@@ -80,141 +44,75 @@ Publications
   <button type="button" class="pub-button" data-publication-filter="preprint" aria-pressed="false">Preprints</button>
 </div>
 
-<!-- Each paper uses data-status="accepted" or data-status="preprint". -->
+<!-- Set data-status to "accepted" or "preprint"; use a gray "Preprint" image badge for preprints. -->
 <div class="publication-list" data-publication-list>
-<div class="publication-card publication-entry" data-status="accepted">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/sleep.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
-      <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </i><br> 
-      We present SleepFormer, the first framework capable of automatically generating convincing excuses for missed deadlines, skipped meetings, and unfinished experiments.
-      <br> 
-      <b><i style="color:#83a1c7;">ACL 3026 Oral &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
-    </div>
-  </div> 
-</div>
-
-
-<div class="publication-card publication-entry" data-status="accepted">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/gpu.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</strong><br>
-      <i style="font-size: 13px;">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </i><br> 
-      We conduct the first psychological evaluation of modern GPUs under extreme training conditions. Results reveal that 87% of devices exhibit symptoms of burnout after repeated “just one more epoch” requests.
-      <br> 
-      <b><i style="color:#83a1c7;">ICLR 3026 &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
-    </div>
-  </div> 
-</div>
-
-<div class="publication-card publication-entry" data-status="accepted">
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/noodle.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>Instant Noodles as a Scalable Training Infrastructure for Graduate Students</strong><br>
-      <i style="font-size: 13px;">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </i><br> 
-      We introduce Noodle-Scaling Law, showing that research productivity increases logarithmically with instant noodle consumption before collapsing catastrophically at 3 a.m.
-      <br> 
-      <b><i style="color:#83a1c7;">ICML 3026 &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
-    </div>
-  </div> 
-</div>
-
-<div class="publication-card publication-entry publication-card--compact" data-status="accepted">
-  <div>
-    <strong>SleepFormer v5: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
-    <i style="font-size: 13px;"><a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.</i><br>
-    <b><i style="color:#83a1c7;">ACL 3030 Oral</i></b>
-    <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+<article class="publication-entry publication-row" data-status="accepted">
+  <div class="publication-media pub-media-rotator" data-interval="4000">
+    <span class="publication-venue-badge">ACL 3026</span>
+    <img src="images/sleep.png" alt="Overview of SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models" width="320" height="180" loading="lazy">
   </div>
-</div>
-
-<div class="publication-card publication-entry publication-card--compact" data-status="accepted">
-  <div>
-    <strong>SleepFormer v4: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
-    <i style="font-size: 13px;"><a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.</i><br>
-    <b><i style="color:#83a1c7;">ACL 3029 Oral</i></b>
-    <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+  <div class="publication-info">
+    <h3 class="pub-title">SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</h3>
+    <p class="pub-authors"><a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su&dagger;</strong></a>.</p>
+    <p class="pub-meta"><span class="pub-venue">ACL 3026 Oral</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
   </div>
-</div>
+</article>
 
-<div class="publication-card publication-entry publication-card--compact" data-status="accepted">
-  <div>
-    <strong>SleepFormer v3: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
-    <i style="font-size: 13px;"><a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.</i><br>
-    <b><i style="color:#83a1c7;">ACL 3028 Oral</i></b>
-    <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+<article class="publication-entry publication-row" data-status="accepted">
+  <div class="publication-media pub-media-rotator" data-interval="4000">
+    <span class="publication-venue-badge">ICLR 3026</span>
+    <img src="images/gpu.png" alt="Overview of Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress" width="320" height="180" loading="lazy">
   </div>
-</div>
+  <div class="publication-info">
+    <h3 class="pub-title">Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</h3>
+    <p class="pub-authors">NVIDIA RTX 9090*, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su*</strong></a>, <a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang&dagger;</strong></a>.</p>
+    <p class="pub-meta"><span class="pub-venue">ICLR 3026</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
+  </div>
+</article>
 
-<div class="publication-card publication-entry publication-card--compact" data-status="accepted">
-  <div>
-    <strong>SleepFormer v2: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
-    <i style="font-size: 13px;"><a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.</i><br>
-    <b><i style="color:#83a1c7;">ACL 3027 Oral</i></b>
-    <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+<article class="publication-entry publication-row" data-status="accepted">
+  <div class="publication-media pub-media-rotator" data-interval="4000">
+    <span class="publication-venue-badge">ICML 3026</span>
+    <img src="images/noodle.png" alt="Overview of Instant Noodles as a Scalable Training Infrastructure for Graduate Students" width="320" height="180" loading="lazy">
   </div>
-</div>
+  <div class="publication-info">
+    <h3 class="pub-title">Instant Noodles as a Scalable Training Infrastructure for Graduate Students</h3>
+    <p class="pub-authors">Noodles&Dagger;, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su*</strong></a>, <a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang&dagger;</strong></a>.</p>
+    <p class="pub-meta"><span class="pub-venue">ICML 3026</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
+  </div>
+</article>
+
+<article class="publication-entry publication-row publication-row--text" data-status="accepted">
+  <div class="publication-info">
+    <h3 class="pub-title">SleepFormer v5: Towards Fully Autonomous Deadline Extension via Large Language Models</h3>
+    <p class="pub-authors"><a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su&dagger;</strong></a>.</p>
+    <p class="pub-meta"><span class="pub-venue">ACL 3030 Oral</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
+  </div>
+</article>
+
+<article class="publication-entry publication-row publication-row--text" data-status="accepted">
+  <div class="publication-info">
+    <h3 class="pub-title">SleepFormer v4: Towards Fully Autonomous Deadline Extension via Large Language Models</h3>
+    <p class="pub-authors"><a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su&dagger;</strong></a>.</p>
+    <p class="pub-meta"><span class="pub-venue">ACL 3029 Oral</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
+  </div>
+</article>
+
+<article class="publication-entry publication-row publication-row--text" data-status="accepted">
+  <div class="publication-info">
+    <h3 class="pub-title">SleepFormer v3: Towards Fully Autonomous Deadline Extension via Large Language Models</h3>
+    <p class="pub-authors"><a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su&dagger;</strong></a>.</p>
+    <p class="pub-meta"><span class="pub-venue">ACL 3028 Oral</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
+  </div>
+</article>
+
+<article class="publication-entry publication-row publication-row--text" data-status="accepted">
+  <div class="publication-info">
+    <h3 class="pub-title">SleepFormer v2: Towards Fully Autonomous Deadline Extension via Large Language Models</h3>
+    <p class="pub-authors"><a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su&dagger;</strong></a>.</p>
+    <p class="pub-meta"><span class="pub-venue">ACL 3027 Oral</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
+  </div>
+</article>
 </div>
 <p class="publication-empty" data-publication-empty role="status" hidden>No preprints to display yet.</p>
 
@@ -222,25 +120,55 @@ Publications
 <script src="assets/js/pub_media_rotator.js"></script>
 
 
-Projects
---------
-<div class="project-card" data-category="project"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/2.png" alt="ManiUniCon" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+Education
+--------------
+<div class="timeline" aria-label="Education timeline">
+  <div class="timeline__item">
+    <div class="timeline__date">2024.09 - Present</div>
+    <div class="timeline__axis" aria-hidden="true"></div>
+    <div class="timeline__card">
+      <div class="timeline__main">
+        <div class="timeline__title">ShanghaiTech University</div>
+        <div class="timeline__meta">Ph.D. Student</div>
+        <div class="timeline__meta">Advised by <a href="https://wwj95.github.io/">Prof. Wenjie Wang</a></div>
+      </div>
+      <div class="timeline__logo timeline__logo--wordmark">
+        <img src="/images/shanghaitech-logo.svg" width="1057" height="283" alt="ShanghaiTech University logo" loading="lazy" decoding="async">
+      </div>
     </div>
-    <div> 
-      <strong>WowPage</strong><br>
-      <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>,
-        <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su</strong></a>.
-      </i><br>
-      In collaboration with Yue Su, I refined and improved his original homepage template. A clean standalone template version is coming soon.
-      <br> 
-      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
-      <a href=""><em>[code]</em></a> 
+  </div>
+  <div class="timeline__item">
+    <div class="timeline__date">2020.09 - 2024.06</div>
+    <div class="timeline__axis" aria-hidden="true"></div>
+    <div class="timeline__card">
+      <div class="timeline__main">
+        <div class="timeline__title">Northwest A&amp;F University</div>
+        <div class="timeline__meta">Undergraduate</div>
+      </div>
+      <div class="timeline__logo timeline__logo--wordmark">
+        <img src="/images/nwsuaf-logo.svg" width="627" height="125" alt="Northwest A&amp;F University logo" loading="lazy" decoding="async">
+      </div>
     </div>
-  </div> 
+  </div>
+</div>
+
+Experience
+--------------
+<div class="timeline" aria-label="Experience timeline">
+  <div class="timeline__item">
+    <div class="timeline__date">2026.06 - 2026.09</div>
+    <div class="timeline__axis" aria-hidden="true"></div>
+    <div class="timeline__card timeline__card--experience">
+      <div class="timeline__main">
+        <div class="timeline__title">Microsoft Research Asia (MSRA)</div>
+        <div class="timeline__meta">Research Collaboration</div>
+      </div>
+      <div class="timeline__logo timeline__logo--msra">
+        <img class="timeline__microsoft-symbol" src="/images/microsoft-logo.svg" width="21" height="21" alt="Microsoft logo" loading="lazy" decoding="async">
+        <img class="timeline__msra-wordmark" src="/images/msra-logo.png" width="1117" height="523" alt="Microsoft Research Asia logo" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </div>
 </div>
 
 
