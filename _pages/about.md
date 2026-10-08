@@ -9,7 +9,7 @@ redirect_from:
 ---
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-I am a first year Ph.D. student in Computer Science at [ShanghaiTech University](https://sist.shanghaitech.edu.cn), advised by Prof. [Wenjie Wang](https://wwj95.github.io/). I am a member of the <a class="inline-affiliation" href="https://wwj95.github.io/"><img src="/images/aspirelab-transparent.png" alt="" width="43" height="18">ASPIRE Lab</a>.
+I am a CS Ph.D. student in the <a class="inline-affiliation" href="https://wwj95.github.io/"><img src="/images/aspirelab-transparent.png" alt="" width="43" height="18">ASPIRE Lab</a> at [ShanghaiTech University](https://sist.shanghaitech.edu.cn), advised by Prof. [Wenjie Wang](https://wwj95.github.io/).
 
 News
 ---------------
