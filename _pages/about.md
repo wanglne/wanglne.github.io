@@ -175,21 +175,21 @@ Services
 --------
 <ul class="service-list">
   <li class="service-row">
-    <span class="service-label">Conference Reviewer</span>
+    <span class="service-label">[Conference Reviewer]</span>
     <ul class="service-content service-items">
       <li>ICLR 2027</li>
       <li>ACL ARR 2025, 2026</li>
     </ul>
   </li>
   <li class="service-row">
-    <span class="service-label service-label--journal">Journal Reviewer</span>
+    <span class="service-label">[Journal Reviewer]</span>
     <ul class="service-content service-items">
       <li>Information Fusion<span class="service-ranking">（中科院一区 TOP，JCR Q1）</span></li>
       <li>Pattern Recognition<span class="service-ranking">（中科院一区 TOP，JCR Q1）</span></li>
     </ul>
   </li>
   <li class="service-row">
-    <span class="service-label service-label--opensource">Open-source Contributor</span>
+    <span class="service-label">[Open Source Contributor]</span>
     <ul class="service-content service-items">
       <li>
       <div class="service-model">
@@ -206,10 +206,9 @@ Services
 
 Awards
 --------
-<ul class="detail-list">
-<li><span class="detail-date">Jan 3026</span><span class="detail-content">Successfully survived 17 consecutive paper deadlines without touching grass.</span></li>
-<li><span class="detail-date">Sep 3025</span><span class="detail-content">Best Excuse Generation Award, SleepFormer Research Group.</span></li>
-<li><span class="detail-date">June 3025</span><span class="detail-content">Outstanding Contributor to Instant Noodle Consumption Efficiency.</span></li>
-<li><span class="detail-date">Dec 3024</span><span class="detail-content">GPU Emotional Damage Scholarship (Full Funding).</span></li>
-<li><span class="detail-date">Aug 3024</span><span class="detail-content">Ranked Top 0.1% Worldwide in “I’ll Fix It Tomorrow”.</span></li>
+<ul class="news-list award-list">
+  <li><time class="news-date" datetime="2024">[2024]</time><span class="news-content">Outstanding Student</span></li>
+  <li><time class="news-date" datetime="2023">[2023]</time><span class="news-content">🏅Provincial First Prize, 15th National College Student Mathematics Competition</span></li>
+  <li><time class="news-date" datetime="2022">[2022]</time><span class="news-content">Academic Scholarship</span></li>
+  <li><time class="news-date" datetime="2021">[2021]</time><span class="news-content">Outstanding Student Leader</span></li>
 </ul>
