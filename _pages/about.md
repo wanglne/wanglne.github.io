@@ -18,22 +18,22 @@ News
 <div class="news-box">
   <ul class="news-list">
 
-<li><span class="news-date"><em>2026.10</em></span> 🚀🚀 Submitted a paper 3 minutes before the deadline.</li>
+<li><time class="news-date" datetime="2026-10">Oct 2026</time><span class="news-content">🚀🚀 Submitted a paper 3 minutes before the deadline.</span></li>
 
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-<li><span class="news-date"><em>2026.09</em></span> 📉📉 My GPU resigned before I did.</li>
-<li><span class="news-date"><em>2026.08</em></span> ☕☕ Survived on coffee for 72 consecutive hours.</li>
+<li><time class="news-date" datetime="2025-12">Dec 2025</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
+<li><time class="news-date" datetime="2026-09">Sep 2026</time><span class="news-content">📉📉 My GPU resigned before I did.</span></li>
+<li><time class="news-date" datetime="2026-08">Aug 2026</time><span class="news-content">☕☕ Survived on coffee for 72 consecutive hours.</span></li>
 
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Weijia.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
+<li><time class="news-date" datetime="2026-05">May 2026</time><span class="news-content">🎉🎉 I begin my internship at Weijia.</span></li>
+<li><time class="news-date" datetime="2025-12">Dec 2025</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
 
-<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 Promoted from intern to “experienced intern”.</li>
-<li><span class="news-date"><em>2026.06</em></span> 🤡🤡 Accidentally deleted the production database.</li>
+<li><time class="news-date" datetime="2026-07">July 2026</time><span class="news-content">🎉🎉 Promoted from intern to “experienced intern”.</span></li>
+<li><time class="news-date" datetime="2026-06">June 2026</time><span class="news-content">🤡🤡 Accidentally deleted the production database.</span></li>
 
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Haidilao.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
+<li><time class="news-date" datetime="2026-05">May 2026</time><span class="news-content">🎉🎉 I begin my internship at Haidilao.</span></li>
+<li><time class="news-date" datetime="2025-12">Dec 2025</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
 
-<li><span class="news-date"><em>2024.10</em></span> 🎉🎉 I began my studies at MIT.</li>
+<li><time class="news-date" datetime="2024-10">Oct 2024</time><span class="news-content">🎉🎉 I began my studies at MIT.</span></li>
   </ul>
 </div>
 
@@ -45,8 +45,8 @@ Experience
   <div class="experience-card">
       <img src="images/haidilao.png" alt="Haidilao logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Haidilao</strong><br>
-          <em>2026.05 - Present</em><br>
+          <strong>Haidilao</strong>
+          <span class="experience-date">May 2026 – Present</span>
           LLM Engineer Intern advised by <a href="https://wd7ang.github.io/"><em>Weidong Tang</em></a><br>
           <span style="color:#888;">Main contribution: teaching hotpot robots to understand human emotions.</span>
       </div>
@@ -55,8 +55,8 @@ Experience
   <div class="experience-card">
       <img src="images/weijia.png" alt="Weijia logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Weijia</strong><br>
-          <em>2026.01 - 2026.03</em><br>
+          <strong>Weijia</strong>
+          <span class="experience-date">Jan 2026 – Mar 2026</span>
           Machine Learning Intern advised by <a href="https://selen-suyue.github.io/"><em>Yue Su</em></a><br>
           <span style="color:#888;">Successfully reduced GPU happiness by 97%.</span>
       </div>
@@ -65,8 +65,8 @@ Experience
   <div class="experience-card">
       <img src="images/mit.png" alt="MIT logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Massachusetts Institute of Technology</strong><br>
-          <em>2023.09 - Present</em><br>
+          <strong>Massachusetts Institute of Technology</strong>
+          <span class="experience-date">Sep 2023 – Present</span>
           Rank 5/99, B.E at <a href="https://ste.xidian.edu.cn/"><em>School of Telecommunication Engineering</em></a><br>
           <span style="color:#888;">Research interests include large models, multimodal learning, and surviving deadlines.</span>
       </div>
@@ -294,28 +294,34 @@ Projects
 
 Awards
 --------
-- *3026.01*, Successfully survived 17 consecutive paper deadlines without touching grass.
-- *3025.09*, Best Excuse Generation Award, SleepFormer Research Group.
-- *3025.06*, Outstanding Contributor to Instant Noodle Consumption Efficiency.
-- *3024.12*, GPU Emotional Damage Scholarship (Full Funding).
-- *3024.08*, Ranked Top 0.1% Worldwide in “I’ll Fix It Tomorrow”.
+<ul class="detail-list">
+<li><span class="detail-date">Jan 3026</span><span class="detail-content">Successfully survived 17 consecutive paper deadlines without touching grass.</span></li>
+<li><span class="detail-date">Sep 3025</span><span class="detail-content">Best Excuse Generation Award, SleepFormer Research Group.</span></li>
+<li><span class="detail-date">June 3025</span><span class="detail-content">Outstanding Contributor to Instant Noodle Consumption Efficiency.</span></li>
+<li><span class="detail-date">Dec 3024</span><span class="detail-content">GPU Emotional Damage Scholarship (Full Funding).</span></li>
+<li><span class="detail-date">Aug 3024</span><span class="detail-content">Ranked Top 0.1% Worldwide in “I’ll Fix It Tomorrow”.</span></li>
+</ul>
 
 
 
 Services
 --------
-- *3026.06 – Present*, Chief Coffee Consumption Officer, Midnight Research Lab.
-- *3026.01 – Present*, Full-time Debugger of Problems Created by Myself.
-- Reviewer for Journal of Unfinished Projects.
-- Area Chair for Conference on Last-Minute Submissions (CLMS).
-- Volunteer Therapist for Burned-out GPUs.
+<ul class="detail-list">
+<li><span class="detail-date">June 3026 – Present</span><span class="detail-content">Chief Coffee Consumption Officer, Midnight Research Lab.</span></li>
+<li><span class="detail-date">Jan 3026 – Present</span><span class="detail-content">Full-time Debugger of Problems Created by Myself.</span></li>
+<li class="detail-list__undated"><span class="detail-content">Reviewer for Journal of Unfinished Projects.</span></li>
+<li class="detail-list__undated"><span class="detail-content">Area Chair for Conference on Last-Minute Submissions (CLMS).</span></li>
+<li class="detail-list__undated"><span class="detail-content">Volunteer Therapist for Burned-out GPUs.</span></li>
+</ul>
 
 
 
 Talks
 --------
-- *3026.07*, “How to Finish a Paper 3 Minutes Before Deadline.”
-- *3026.05*, “Large Language Models and Large Amounts of Caffeine.”
-- *3025.11*, “On the Emotional Stability of GPUs Under Extreme Stress.”
-- *3025.08*, “Instant Noodles as Scalable Research Infrastructure.”
-- *3025.03*, “Sleep is Temporary, Camera-Ready is Forever.”
+<ul class="detail-list">
+<li><span class="detail-date">July 3026</span><span class="detail-content">“How to Finish a Paper 3 Minutes Before Deadline.”</span></li>
+<li><span class="detail-date">May 3026</span><span class="detail-content">“Large Language Models and Large Amounts of Caffeine.”</span></li>
+<li><span class="detail-date">Nov 3025</span><span class="detail-content">“On the Emotional Stability of GPUs Under Extreme Stress.”</span></li>
+<li><span class="detail-date">Aug 3025</span><span class="detail-content">“Instant Noodles as Scalable Research Infrastructure.”</span></li>
+<li><span class="detail-date">Mar 3025</span><span class="detail-content">“Sleep is Temporary, Camera-Ready is Forever.”</span></li>
+</ul>
