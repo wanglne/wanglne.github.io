@@ -62,9 +62,12 @@
     }
     .experience-info {
         font-family: "Segoe UI", sans-serif;
+        font-size: 14px;
+        line-height: 1.45;
     }
     .experience-info strong {
-        font-size: 1.1em;
+        font-size: 15px;
+        line-height: 1.35;
     }
     .experience-info a {
         text-decoration: none;
@@ -375,4 +378,12 @@
             border: 2px solid var(--accent-color);
         }
 
+        .masthead__inner-wrap {
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .masthead__menu-item a {
+            font-weight: 400;
+        }
 
