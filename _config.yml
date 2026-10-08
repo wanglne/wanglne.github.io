@@ -17,11 +17,12 @@ author:
   employer_url     :
   uri              :
   email            : "wangyi2024@shanghaitech.edu.cn"
+  email_secondary  : "wangyii.cs@gmail.com"
 
   arxiv            :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=s3HDdz0AAAAJ&hl=en"
   impactstory      :
-  orcid            :
+  orcid            : "https://orcid.org/0009-0003-4850-0848"
   semantic         :
   pubmed           :
   researchgate     :
@@ -30,7 +31,7 @@ author:
   codepen          :
   dribbble         :
   github           : "wanglne"
-  huggingface      :
+  huggingface      : "https://huggingface.co/wanglne"
   kaggle           :
   stackoverflow    :
 

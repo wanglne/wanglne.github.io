@@ -455,7 +455,61 @@ body.homepage .author__urls .author__link-placeholder {
 }
 body.homepage .author-link--googlescholar i { color: #6db6f8; }
 body.homepage .author__huggingface-icon { font-style: normal; }
+body.homepage .author__email summary {
+    display: grid;
+    grid-template-columns: 1.85em minmax(0, 1fr) 0.75em;
+    gap: 0.52em;
+    align-items: center;
+    margin-bottom: 6px;
+    padding: 2px 5px 2px 0;
+    font-size: 1.1em;
+    list-style: none;
+    cursor: pointer;
+}
+body.homepage .author__email summary::-webkit-details-marker { display: none; }
+body.homepage .author__email summary i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.85em;
+    height: 1.85em;
+    font-size: 1.22em;
+}
+body.homepage .author__email summary::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: rotate(45deg);
+    transition: transform 0.2s;
+}
+body.homepage .author__email[open] summary::after { transform: rotate(225deg); }
+body.homepage .author__email summary:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+body.homepage .author__email-options {
+    margin: 0 0 10px 2.6em;
+    padding: 4px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+body.homepage .author__urls .author__email-options a {
+    display: block;
+    margin: 0;
+    padding: 6px 4px;
+    font-size: 12px;
+    line-height: 1.5;
+}
 body.homepage .page__content { overflow-wrap: anywhere; }
+@media (max-width: 924px) {
+    body.homepage .author__urls {
+        width: min(280px, calc(100vw - 28px));
+    }
+}
 @media (min-width: 925px) {
     body.homepage { --homepage-left-bias: clamp(20px, 1.9vw, 34px); }
     body.homepage #main,

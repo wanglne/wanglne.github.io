@@ -20,7 +20,8 @@
       });
     });
 
-    document.addEventListener('click', function() {
+    document.addEventListener('click', function(event) {
+      if (event.target.closest('.author__urls-wrapper')) return;
       closeAll();
     });
 

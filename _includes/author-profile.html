@@ -37,8 +37,21 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+      {% assign email_keys = "email,email_secondary" | split: "," %}
+      {% if author.email or author.email_secondary %}
+        <li>
+          <details class="author__email">
+            <summary><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</summary>
+            <div class="author__email-options">
+              {% for email_key in email_keys %}
+                {% assign email_address = author[email_key] %}
+                {% if email_address and email_address != "" %}
+                  <a href="mailto:{{ email_address | escape }}">{{ email_address | escape | replace: "@", "<wbr>@" }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </details>
+        </li>
       {% endif %}
       {% include author-academic-links.html %}
       {% if author.WeChat %}
