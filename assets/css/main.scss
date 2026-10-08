@@ -44,6 +44,7 @@
   --accent-color: #{$accent-color};
   --accent-color-hover: #{$link-color-hover};
   --accent-rgb: #{red($accent-color)}, #{green($accent-color)}, #{blue($accent-color)};
+  --link-color: #{$link-color};
 }
 
 @media (min-width: 1024px) {
