@@ -31,7 +31,8 @@
       {% endif %}
       {% if author.employer %}
         {% assign employer_query = author.employer | url_encode %}
-        <li class="author__desktop author__contact"><a href="https://www.google.com/search?q={{ employer_query }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a></li>
+        {% assign employer_search_url = "https://www.google.com/search?q=" | append: employer_query %}
+        <li class="author__desktop author__contact"><a href="{{ author.employer_url | default: employer_search_url }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
