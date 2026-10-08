@@ -76,13 +76,15 @@ Experience
 
 Publications
 --------------
-<button class="pub-button active" onclick="filterPublications(event, 'all')">Core Publications</button>
-<button class="pub-button" onclick="filterPublications(event, 'list')">Full Publications List</button>
+<div class="pub-button-container" role="group" aria-label="Filter publications">
+  <button type="button" class="pub-button active" data-publication-filter="all" aria-pressed="true">All</button>
+  <button type="button" class="pub-button" data-publication-filter="accepted" aria-pressed="false">Accepted</button>
+  <button type="button" class="pub-button" data-publication-filter="preprint" aria-pressed="false">Preprints</button>
+</div>
 
-(* equal contribution · &dagger; corresponding author · &Dagger; project leader)
-
-<div id="core-publications" class="publication-view" data-publication-view="core">
-<div class="publication-card" data-category="all"> 
+<!-- Each paper uses data-status="accepted" or data-status="preprint". -->
+<div class="publication-list" data-publication-list>
+<div class="publication-card publication-entry" data-status="accepted">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
       <img src="images/sleep.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
@@ -108,7 +110,7 @@ Publications
 </div>
 
 
-<div class="publication-card" data-category="all"> 
+<div class="publication-card publication-entry" data-status="accepted">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
       <img src="images/gpu.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
@@ -134,7 +136,7 @@ Publications
   </div> 
 </div>
 
-<div class="publication-card" data-category="all"> 
+<div class="publication-card publication-entry" data-status="accepted">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
       <img src="images/noodle.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
@@ -160,111 +162,63 @@ Publications
   </div> 
 </div>
 
+<div class="publication-card publication-entry publication-card--compact" data-status="accepted">
+  <div>
+    <strong>SleepFormer v5: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
+    <i style="font-size: 13px;"><a href="https://wd7ang.github.io" target="_blank">
+          <strong>Weidong Tang</strong>
+        </a>,
+        <a href="https://selen-suyue.github.io/" target="_blank">
+          <strong>Yue Su&dagger;</strong>
+        </a>.</i><br>
+    <b><i style="color:#83a1c7;">ACL 3030 Oral</i></b>
+    <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+  </div>
 </div>
 
-
-<div id="full-publications" class="publication-view" data-publication-view="list" hidden>
-  <ul class="full-publication-list">
-    <li>
-      <span class="pub-list-badge">ACL 3030</span>
-      <span class="pub-list-title">SleepFormer v5: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
+<div class="publication-card publication-entry publication-card--compact" data-status="accepted">
+  <div>
+    <strong>SleepFormer v4: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
+    <i style="font-size: 13px;"><a href="https://wd7ang.github.io" target="_blank">
           <strong>Weidong Tang</strong>
         </a>,
         <a href="https://selen-suyue.github.io/" target="_blank">
           <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3029</span>
-      <span class="pub-list-title">SleepFormer v4: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3028</span>
-      <span class="pub-list-title">SleepFormer v3: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3027</span>
-      <span class="pub-list-title">SleepFormer v2: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3026</span>
-      <span class="pub-list-title">SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</span><br>
-      <span class="pub-list-authors">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Instant Noodles as a Scalable Training Infrastructure for Graduate Students</span><br>
-      <span class="pub-list-authors">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-  </ul>
+        </a>.</i><br>
+    <b><i style="color:#83a1c7;">ACL 3029 Oral</i></b>
+    <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+  </div>
 </div>
+
+<div class="publication-card publication-entry publication-card--compact" data-status="accepted">
+  <div>
+    <strong>SleepFormer v3: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
+    <i style="font-size: 13px;"><a href="https://wd7ang.github.io" target="_blank">
+          <strong>Weidong Tang</strong>
+        </a>,
+        <a href="https://selen-suyue.github.io/" target="_blank">
+          <strong>Yue Su&dagger;</strong>
+        </a>.</i><br>
+    <b><i style="color:#83a1c7;">ACL 3028 Oral</i></b>
+    <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+  </div>
+</div>
+
+<div class="publication-card publication-entry publication-card--compact" data-status="accepted">
+  <div>
+    <strong>SleepFormer v2: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
+    <i style="font-size: 13px;"><a href="https://wd7ang.github.io" target="_blank">
+          <strong>Weidong Tang</strong>
+        </a>,
+        <a href="https://selen-suyue.github.io/" target="_blank">
+          <strong>Yue Su&dagger;</strong>
+        </a>.</i><br>
+    <b><i style="color:#83a1c7;">ACL 3027 Oral</i></b>
+    <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+  </div>
+</div>
+</div>
+<p class="publication-empty" data-publication-empty role="status" hidden>No preprints to display yet.</p>
 
 <script src="assets/js/show_publications.js"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
@@ -312,16 +266,4 @@ Services
 <li class="detail-list__undated"><span class="detail-content">Reviewer for Journal of Unfinished Projects.</span></li>
 <li class="detail-list__undated"><span class="detail-content">Area Chair for Conference on Last-Minute Submissions (CLMS).</span></li>
 <li class="detail-list__undated"><span class="detail-content">Volunteer Therapist for Burned-out GPUs.</span></li>
-</ul>
-
-
-
-Talks
---------
-<ul class="detail-list">
-<li><span class="detail-date">July 3026</span><span class="detail-content">“How to Finish a Paper 3 Minutes Before Deadline.”</span></li>
-<li><span class="detail-date">May 3026</span><span class="detail-content">“Large Language Models and Large Amounts of Caffeine.”</span></li>
-<li><span class="detail-date">Nov 3025</span><span class="detail-content">“On the Emotional Stability of GPUs Under Extreme Stress.”</span></li>
-<li><span class="detail-date">Aug 3025</span><span class="detail-content">“Instant Noodles as Scalable Research Infrastructure.”</span></li>
-<li><span class="detail-date">Mar 3025</span><span class="detail-content">“Sleep is Temporary, Camera-Ready is Forever.”</span></li>
 </ul>

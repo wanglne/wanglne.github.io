@@ -1,31 +1,48 @@
-function filterPublications(event, type) {
-  const normalizedType = type === 'list' ? 'list' : 'core';
-  const buttons = document.querySelectorAll('.pub-button');
-  const coreView = document.querySelector('[data-publication-view="core"]');
-  const listView = document.querySelector('[data-publication-view="list"]');
+(function() {
+  function initPublicationFilters() {
+    const list = document.querySelector('[data-publication-list]');
+    if (!list) return;
 
-  buttons.forEach((button) => button.classList.remove('active'));
+    const buttons = document.querySelectorAll('[data-publication-filter]');
+    const papers = list.querySelectorAll('.publication-entry');
+    const emptyMessage = document.querySelector('[data-publication-empty]');
 
-  if (event && event.currentTarget) {
-    event.currentTarget.classList.add('active');
-  } else if (buttons.length) {
-    const activeIndex = normalizedType === 'list' ? 1 : 0;
-    if (buttons[activeIndex]) buttons[activeIndex].classList.add('active');
+    function applyFilter(status) {
+      let visibleCount = 0;
+      papers.forEach(function(paper) {
+        const matches = status === 'all' || paper.dataset.status === status;
+        paper.hidden = !matches;
+        if (matches) visibleCount += 1;
+      });
+
+      buttons.forEach(function(button) {
+        const selected = button.dataset.publicationFilter === status;
+        button.classList.toggle('active', selected);
+        button.setAttribute('aria-pressed', String(selected));
+      });
+
+      if (emptyMessage) {
+        emptyMessage.hidden = visibleCount > 0;
+        emptyMessage.textContent = status === 'preprint'
+          ? 'No preprints to display yet.'
+          : status === 'accepted'
+            ? 'No accepted papers to display yet.'
+            : 'No publications to display yet.';
+      }
+    }
+
+    buttons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        applyFilter(button.dataset.publicationFilter);
+      });
+    });
+
+    applyFilter('all');
   }
 
-  if (coreView) {
-    coreView.hidden = normalizedType === 'list';
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPublicationFilters);
+  } else {
+    initPublicationFilters();
   }
-
-  if (listView) {
-    listView.hidden = normalizedType !== 'list';
-  }
-}
-
-function showPublications(type) {
-  filterPublications(null, type);
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  filterPublications(null, 'core');
-});
+})();

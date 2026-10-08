@@ -6,8 +6,7 @@
     #experience,
     #publications,
     #projects,
-    #awards,
-    #talks {
+    #awards {
         scroll-margin-top: 80px;
     }
   
@@ -197,130 +196,68 @@
     
     .pub-button-container {
         display: flex;
-        gap: 10px;
-        margin: 20px 0;
+        gap: 6px;
+        margin: 8px 0 12px;
         flex-wrap: wrap;
     }
-    
     .pub-button {
-        background-color: #f0f0f0;
-        border: 1px solid #ccc;
-        border-radius: 20px;
-        padding: 8px 16px;
+        --filter-color: #60656c;
+        --filter-border: #d1d4d9;
+        --filter-background: #f5f5f7;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        min-height: 32px;
+        padding: 4px 10px;
+        border: 1px solid var(--filter-border);
+        border-radius: 999px;
+        background: #fff;
+        color: var(--filter-color);
+        font-family: inherit;
+        font-size: 14px;
+        line-height: 1.4;
         cursor: pointer;
-        transition: all 0.3s ease;
+        transition: background-color 0.2s, box-shadow 0.2s;
     }
-    
-    .pub-button:hover {
-        background-color: #e0e0e0;
+    .pub-button[data-publication-filter="accepted"] {
+        --filter-color: #6f93b6;
+        --filter-border: #d4e2ef;
+        --filter-background: #f5f9fd;
     }
-    
+    .pub-button[data-publication-filter="preprint"] {
+        --filter-color: #887b98;
+        --filter-border: #e0dce6;
+        --filter-background: #f9f7fb;
+    }
+    .pub-button.active,
+    .pub-button:hover { background: var(--filter-background); }
     .pub-button.active {
-        background-color: var(--accent-color);
-        color: white;
-        border-color: var(--accent-color);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
     }
-
-      .publication-view[hidden] {
-        display: none !important;
+    .pub-button.active::before {
+        content: "";
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: currentColor;
     }
-
-      #full-publications {
-        max-height: 380px;
-        overflow-y: auto;
-        padding-right: 8px;
-        margin-bottom: 24px;
-        scroll-behavior: smooth;
-        scrollbar-width: thin;
-        scrollbar-color: rgba(var(--accent-rgb), 0.45) rgba(var(--accent-rgb), 0.05);
+    .pub-button:focus-visible {
+        outline: 2px solid var(--filter-color);
+        outline-offset: 2px;
     }
-
-    #full-publications::-webkit-scrollbar {
-        width: 8px;
+    .publication-entry[hidden],
+    .publication-empty[hidden] { display: none !important; }
+    .publication-empty {
+        padding: 20px 16px;
+        margin: 0 0 20px;
+        border: 1px solid #e0dce6;
+        border-radius: 8px;
+        background: #f9f7fb;
+        color: #887b98;
+        font-size: 14px;
     }
-
-    #full-publications::-webkit-scrollbar-track {
-        background: rgba(var(--accent-rgb), 0.05);
-        border-radius: 999px;
-    }
-
-    #full-publications::-webkit-scrollbar-thumb {
-        background: rgba(var(--accent-rgb), 0.45);
-        border-radius: 999px;
-    }
-
-    #full-publications::-webkit-scrollbar-thumb:hover {
-        background: rgba(var(--accent-rgb), 0.65);
-    }
-  
-    .full-publication-list {
-        margin: 0;
-        padding-left: 1.25rem;
-        color: #5f6368;
-        font-size: 15px;
-        line-height: 1.55;
-    }
-
-    .full-publication-list li {
-        margin-bottom: 14px;
-    }
-
-    .pub-list-badge {
-        display: inline-block;
-        margin-right: 6px;
-        padding: 2px 8px;
-        border-radius: 999px;
-        border: 1px solid rgba(var(--accent-rgb), 0.3);
-        background: rgba(var(--accent-rgb), 0.05);
-        color: var(--accent-color);
-        font-size: 11px;
-        font-weight: 650;
-        line-height: 1.35;
-        vertical-align: 1px;
-        white-space: nowrap;
-    }
-
-    .full-publication-list .pub-list-title {
-        color: #202124;
-        font-size: 15px;
-        font-weight: 700;
-        line-height: 1.45;
-        text-decoration: none !important;
-    }
-
-      .pub-list-authors {
-        color: #6b7280;
-        font-size: 13px;
-        font-style: italic;
-    }
-
-    .pub-list-authors > strong {
-        color: #202124;
-    }
-
-      .pub-list-authors a strong {
-        color: inherit;
-    }
-
-    .pub-list-note {
-        color: var(--accent-color);
-        font-style: italic;
-        font-weight: 650;
-    }
-
-    .pub-list-links {
-        white-space: nowrap;
-    }
-
-    .pub-list-links a {
-        margin-left: 4px;
-        color: var(--link-color) !important;
-        font-weight: 600;
-    }
-
-      .pub-list-links a:hover {
-        color: var(--accent-color-hover) !important;
-    }
+    .publication-card--compact > div { width: 100%; min-width: 0; }
+    .pub-list-links a { margin-left: 4px; }
 
     /* Projects cards: keep styles independent from publications */
     .project-card {
@@ -385,13 +322,6 @@
             line-height: 1.35;
         }
 
-        .full-publication-list {
-            padding-left: 1rem;
-        }
-
-        .pub-list-badge {
-            margin-bottom: 4px;
-        }
     }
         body {
             background-color: #ffffff;
