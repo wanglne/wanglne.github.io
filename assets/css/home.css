@@ -36,7 +36,7 @@
       display: inline-block;
       min-width: 70px;
       font-weight: 400;
-      color: #ca6f6f;
+      color: var(--accent-color);
     }
   
     .experience-card {
@@ -68,7 +68,7 @@
     }
     .experience-info a {
         text-decoration: none;
-        color: #ca6f6f;
+        color: var(--accent-color);
     }
     .experience-container {
         display: flex;
@@ -139,14 +139,14 @@
     }
 
     .publication-card.featured {
-        border-color: #f5bba7;
-        background: #fef5f1;
-        box-shadow: 0 4px 8px rgba(242, 166, 120, 0.2);
+        border-color: rgba(var(--accent-rgb), 0.3);
+        background: rgba(var(--accent-rgb), 0.05);
+        box-shadow: 0 4px 8px rgba(var(--accent-rgb), 0.2);
         z-index: 10;
     }
 
     .publication-card.featured:hover {
-        box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); 
+        box-shadow: 0 8px 16px rgba(var(--accent-rgb), 0.4);
     }
     
     /*.publication-card.non-featured {*/
@@ -174,9 +174,9 @@
     }
     
     .pub-button.active {
-        background-color: #ca6f6f;
+        background-color: var(--accent-color);
         color: white;
-        border-color: #ca6f6f;
+        border-color: var(--accent-color);
     }
 
       .publication-view[hidden] {
@@ -190,7 +190,7 @@
         margin-bottom: 24px;
         scroll-behavior: smooth;
         scrollbar-width: thin;
-        scrollbar-color: rgba(185, 95, 61, 0.45) rgba(254, 245, 241, 0.7);
+        scrollbar-color: rgba(var(--accent-rgb), 0.45) rgba(var(--accent-rgb), 0.05);
     }
 
     #full-publications::-webkit-scrollbar {
@@ -198,17 +198,17 @@
     }
 
     #full-publications::-webkit-scrollbar-track {
-        background: rgba(254, 245, 241, 0.7);
+        background: rgba(var(--accent-rgb), 0.05);
         border-radius: 999px;
     }
 
     #full-publications::-webkit-scrollbar-thumb {
-        background: rgba(185, 95, 61, 0.45);
+        background: rgba(var(--accent-rgb), 0.45);
         border-radius: 999px;
     }
 
     #full-publications::-webkit-scrollbar-thumb:hover {
-        background: rgba(185, 95, 61, 0.65);
+        background: rgba(var(--accent-rgb), 0.65);
     }
   
     .full-publication-list {
@@ -228,9 +228,9 @@
         margin-right: 6px;
         padding: 2px 8px;
         border-radius: 999px;
-        border: 1px solid rgba(245, 187, 167, 0.75);
-        background: #fef5f1;
-        color: #b95f3d;
+        border: 1px solid rgba(var(--accent-rgb), 0.3);
+        background: rgba(var(--accent-rgb), 0.05);
+        color: var(--accent-color);
         font-size: 11px;
         font-weight: 650;
         line-height: 1.35;
@@ -261,7 +261,7 @@
     }
 
     .pub-list-note {
-        color: #c7774c;
+        color: var(--accent-color);
         font-style: italic;
         font-weight: 650;
     }
@@ -272,12 +272,12 @@
 
     .pub-list-links a {
         margin-left: 4px;
-        color: #c7774c !important;
+        color: var(--accent-color) !important;
         font-weight: 600;
     }
 
       .pub-list-links a:hover {
-        color: #b65f36 !important;
+        color: var(--accent-color-hover) !important;
     }
 
     /* Projects cards: keep styles independent from publications */
@@ -359,18 +359,17 @@
         .main-heading {
             font-family: 'Permanent Marker', cursive;
             text-align: center;
-            color: #ca6f6f;
+            color: var(--accent-color);
         }
         div.markdown-body a,a {
             text-decoration: none !important;
-            color: #ca6f6f;
+            color: var(--accent-color);
             transition: all 0.3s ease;
         }
         div.markdown-body a:hover, a:hover {
-            color: #c71585;
+            color: var(--accent-color-hover);
             text-decoration: underline;
         }
-
 
 
 
