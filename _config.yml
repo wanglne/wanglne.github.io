@@ -1,11 +1,11 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : "wanglne"
 title_separator          : "-"
-name                     : "Your Name"
-description              : &description "A clean academic homepage template."
-url                      : ""
+name                     : "Yi Wang"
+description              : &description "My homepage."
+url                      : "https://wanglne.github.io"
 baseurl                  : ""
-repository               : ""
+repository               : "wanglne/wanglne.github.io"
 
 author:
   avatar           : "1.png"
