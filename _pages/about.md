@@ -104,6 +104,7 @@ Publications
       <a class="ieee" href="https://ieeexplore.ieee.org/abstract/document/11523146">[<i class="fas fa-external-link-alt" aria-hidden="true"></i>IEEE]</a>
       <a class="code" href="https://github.com/wanglne/EVA">[<i class="fab fa-github" aria-hidden="true"></i>Code]</a>
       <a class="models" href="https://huggingface.co/collections/wanglne/eva-editing-for-versatile-alignment-against-jailbreaks">[<img class="hf-icon" src="/images/huggingface-logo.svg" width="95" height="88" alt="" aria-hidden="true" loading="lazy" decoding="async">Models]</a>
+      <a class="rednote" href="https://xhslink.cn/o/2QDhmm4LoY1" target="_blank" rel="noopener" title="Read on Xiaohongshu (RedNote)">[<i class="fas fa-book" aria-hidden="true"></i>RedNote]</a>
     </p>
   </div>
 </article>
@@ -162,6 +163,7 @@ Publications
     <p class="pub-meta pub-links pub-links--row">
       <a class="paper" href="https://arxiv.org/abs/2502.11647" target="_blank" rel="noopener">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
       <a class="code" href="https://github.com/wanglne/DELMAN" target="_blank" rel="noopener">[<i class="fab fa-github" aria-hidden="true"></i>Code]</a>
+      <a class="rednote" href="https://xhslink.cn/o/68AriK2KclL" target="_blank" rel="noopener" title="Read on Xiaohongshu (RedNote)">[<i class="fas fa-book" aria-hidden="true"></i>RedNote]</a>
     </p>
   </div>
 </article>

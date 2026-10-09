@@ -315,6 +315,7 @@ body.homepage .pub-links .paper { color: #1565c0; }
 body.homepage .pub-links .ieee { color: #00629b; }
 body.homepage .pub-links .code { color: var(--accent-color); }
 body.homepage .pub-links .models { color: rgba(255, 152, 0, 0.9); }
+body.homepage .pub-links .rednote { color: #ff2442; }
 .publication-info .pub-links--row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15rem 0.65rem; margin-left: 0; }
 .pub-links--row a { margin-right: 0; }
 .pub-links--row .pub-resource { display: inline-block; white-space: nowrap; font-weight: 500; }
