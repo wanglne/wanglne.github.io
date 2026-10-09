@@ -11,27 +11,19 @@ redirect_from:
 
 I am a CS Ph.D. student in the <a class="inline-affiliation" href="https://wwj95.github.io/"><img src="/images/aspirelab-icon.png" alt="" width="18" height="18">ASPIRE Lab</a> at [ShanghaiTech University](https://sist.shanghaitech.edu.cn), advised by Prof. [Wenjie Wang](https://wwj95.github.io/). Prior to that, I received my bachelor's degree from [Northwest A&F University](https://www.nwsuaf.edu.cn/) in 2024.
 
+My research focuses on <span class="research-keyword">AI safety, alignment, and post-training</span> for LLMs and VLMs. Recently, I have been exploring <span class="research-keyword">latent space reasoning</span> and <span class="research-keyword">looped language models (LoopLMs)</span>, with an emphasis on <span class="research-keyword">efficient post-training</span> and safety alignment.
+
 News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-
-<li><time class="news-date" datetime="2026-10">[2026.10]</time><span class="news-content">🚀🚀 Submitted a paper 3 minutes before the deadline.</span></li>
-
-<li><time class="news-date" datetime="2025-12">[2025.12]</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
-<li><time class="news-date" datetime="2026-09">[2026.09]</time><span class="news-content">📉📉 My GPU resigned before I did.</span></li>
-<li><time class="news-date" datetime="2026-08">[2026.08]</time><span class="news-content">☕☕ Survived on coffee for 72 consecutive hours.</span></li>
-
-<li><time class="news-date" datetime="2026-05">[2026.05]</time><span class="news-content">🎉🎉 I begin my internship at Weijia.</span></li>
-<li><time class="news-date" datetime="2025-12">[2025.12]</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
-
-<li><time class="news-date" datetime="2026-07">[2026.07]</time><span class="news-content">🎉🎉 Promoted from intern to “experienced intern”.</span></li>
-<li><time class="news-date" datetime="2026-06">[2026.06]</time><span class="news-content">🤡🤡 Accidentally deleted the production database.</span></li>
-
-<li><time class="news-date" datetime="2026-05">[2026.05]</time><span class="news-content">🎉🎉 I begin my internship at Haidilao.</span></li>
-<li><time class="news-date" datetime="2025-12">[2025.12]</time><span class="news-content">😅😅 Unexpectedly got fired.</span></li>
-
-<li><time class="news-date" datetime="2024-10">[2024.10]</time><span class="news-content">🎉🎉 I began my studies at MIT.</span></li>
+    <li><time class="news-date" datetime="2026-09">[2026.09]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>SaLR</strong> was accepted to <strong>NeurIPS 2026</strong>!</span></li>
+    <li><time class="news-date" datetime="2026-09">[2026.09]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;One paper was accepted to <strong>ACML 2026</strong>!</span></li>
+    <li><time class="news-date" datetime="2026-08">[2026.08]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;One paper was accepted to <strong>NLPCC 2026</strong>!</span></li>
+    <li><time class="news-date" datetime="2026-06">[2026.06]</time>&nbsp;<span class="news-content">🎓🎓&nbsp;I officially became a Ph.D. student at ShanghaiTech University!</span></li>
+    <li><time class="news-date" datetime="2026-05">[2026.05]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>EVA</strong> was accepted for publication in <strong>IEEE TPAMI 2026</strong>!</span></li>
+    <li><time class="news-date" datetime="2025-05">[2025.05]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>DELMAN</strong> was accepted to <strong>ACL 2025</strong>!</span></li>
+    <li><time class="news-date" datetime="2024-09">[2024.09]</time>&nbsp;<span class="news-content">🎓🎓&nbsp;I began my master's studies at ShanghaiTech University!</span></li>
   </ul>
 </div>
 
@@ -46,6 +38,56 @@ Publications
 
 <!-- Set data-status to "accepted" or "preprint"; use a gray "Preprint" image badge for preprints. -->
 <div class="publication-list" data-publication-list>
+<article class="publication-entry publication-row" data-status="preprint">
+  <div class="publication-media">
+    <span class="publication-venue-badge">Preprint</span>
+    <img src="images/LoopOPD_intro.png" alt="Overview of dynamic cross-loop on-policy distillation for looped language models" width="3721" height="1315" loading="lazy" decoding="async">
+  </div>
+  <div class="publication-info">
+    <h3 class="pub-title">Recurrent Self-Improvement: Dynamic Cross-Loop On-Policy Distillation for Looped Language Models</h3>
+    <p class="pub-authors"><strong class="pub-author-self">Yi Wang</strong>, Rui Qian, Yu Li, Haoyang Yao, Wenjie Wang<sup>&dagger;</sup>.</p>
+    <p class="pub-meta"><span class="pub-venue">Preprint</span></p>
+    <p class="pub-meta pub-links pub-links--row">
+      <a class="paper" href="https://arxiv.org/abs/2610.10623">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
+      <span class="code pub-resource">[<i class="fab fa-github" aria-hidden="true"></i>Code] <span class="pub-coming-soon">(Coming soon)</span></span>
+      <span class="models pub-resource">[<img class="hf-icon" src="/images/huggingface-logo.svg" width="95" height="88" alt="" aria-hidden="true" loading="lazy" decoding="async">Models] <span class="pub-coming-soon">(Coming soon)</span></span>
+    </p>
+  </div>
+</article>
+
+<article class="publication-entry publication-row" data-status="preprint">
+  <div class="publication-media">
+    <span class="publication-venue-badge">Preprint</span>
+    <img src="images/SafeBridge_intro.png" alt="Safety challenges across recurrent depths in looped language models" width="4409" height="1540" loading="lazy" decoding="async">
+  </div>
+  <div class="publication-info">
+    <h3 class="pub-title">Safe at One Loop, Risky at Another: Aligning Safety Across Recurrent Depths in Looped Language Models</h3>
+    <p class="pub-authors"><strong class="pub-author-self">Yi Wang</strong><sup>*</sup>, Xiuyuan Qi<sup>*</sup>, Dongqi Han, Dongsheng Li, Wenjie Wang<sup>&dagger;</sup>.</p>
+    <p class="pub-meta"><span class="pub-venue">Preprint</span></p>
+    <p class="pub-meta pub-links pub-links--row">
+      <a class="paper" href="https://arxiv.org/abs/2610.10625">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
+      <span class="code pub-resource">[<i class="fab fa-github" aria-hidden="true"></i>Code] <span class="pub-coming-soon">(Coming soon)</span></span>
+      <span class="models pub-resource">[<img class="hf-icon" src="/images/huggingface-logo.svg" width="95" height="88" alt="" aria-hidden="true" loading="lazy" decoding="async">Models] <span class="pub-coming-soon">(Coming soon)</span></span>
+    </p>
+  </div>
+</article>
+
+<article class="publication-entry publication-row" data-status="accepted">
+  <div class="publication-media">
+    <span class="publication-venue-badge">NeurIPS 2026</span>
+    <img src="images/SaLR_method.svg" alt="Overview of Safety-aware Latent Space Reasoning (SaLR)" width="832" height="337" loading="lazy" decoding="async">
+  </div>
+  <div class="publication-info">
+    <h3 class="pub-title">Safety-Aware Latent Space Reasoning in Large Language Models</h3>
+    <p class="pub-authors"><strong class="pub-author-self">Yi Wang</strong><sup>*</sup>, Wenjie Wang<sup>*&dagger;</sup>, Hongye Qiu, Yu Pan.</p>
+    <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span></p>
+    <p class="pub-meta pub-links pub-links--row">
+      <a class="paper" href="/images/SaLR_NIPS2026.pdf" target="_blank" rel="noopener">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
+      <a class="code" href="https://github.com/wanglne/SaLR">[<i class="fab fa-github" aria-hidden="true"></i>Code]</a>
+    </p>
+  </div>
+</article>
+
 <article class="publication-entry publication-row" data-status="accepted">
   <div class="publication-media pub-media-rotator" data-interval="4000">
     <span class="publication-venue-badge">ACL 3026</span>
