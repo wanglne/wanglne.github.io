@@ -62,7 +62,7 @@ Publications
   </div>
   <div class="publication-info">
     <h3 class="pub-title">Safe at One Loop, Risky at Another: Aligning Safety Across Recurrent Depths in Looped Language Models</h3>
-    <p class="pub-authors"><strong class="pub-author-self">Yi Wang</strong><sup>*</sup>, Xiuyuan Qi<sup>*</sup>, Dongqi Han, Dongsheng Li, Wenjie Wang<sup>&dagger;</sup>.</p>
+    <p class="pub-authors"><strong class="pub-author-self">Yi Wang<sup>*</sup></strong>, Xiuyuan Qi<sup>*</sup>, Dongqi Han, Dongsheng Li, Wenjie Wang<sup>&dagger;</sup>.</p>
     <p class="pub-meta"><span class="pub-venue">Preprint</span></p>
     <p class="pub-meta pub-links pub-links--row">
       <a class="paper" href="https://arxiv.org/abs/2610.10625">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
@@ -72,6 +72,8 @@ Publications
   </div>
 </article>
 
+
+
 <article class="publication-entry publication-row" data-status="accepted">
   <div class="publication-media publication-media--image-bottom">
     <span class="publication-venue-badge">NeurIPS 2026</span>
@@ -79,7 +81,7 @@ Publications
   </div>
   <div class="publication-info">
     <h3 class="pub-title">Safety-Aware Latent Space Reasoning in Large Language Models</h3>
-    <p class="pub-authors"><strong class="pub-author-self">Yi Wang</strong><sup>*</sup>, Wenjie Wang<sup>*&dagger;</sup>, Hongye Qiu, Yu Pan.</p>
+    <p class="pub-authors"><strong class="pub-author-self">Yi Wang<sup>*</sup></strong>, Wenjie Wang<sup>*&dagger;</sup>, Hongye Qiu, Yu Pan.</p>
     <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span></p>
     <p class="pub-meta pub-links pub-links--row">
       <a class="paper" href="/papers/SaLR_NIPS2026.pdf" target="_blank" rel="noopener">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
@@ -117,6 +119,49 @@ Publications
     <p class="pub-meta pub-links pub-links--row">
       <a class="paper" href="https://arxiv.org/abs/2502.11603">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
       <a class="code" href="https://github.com/davidwye/DRGAP-main">[<i class="fab fa-github" aria-hidden="true"></i>Code]</a>
+    </p>
+  </div>
+</article>
+<article class="publication-entry publication-row" data-status="accepted">
+  <div class="publication-media">
+    <span class="publication-venue-badge">ACML 2026</span>
+    <img src="images/acml2026.jpg" alt="Differential privacy training workflow for preference alignment on survey-derived data" width="1534" height="775" loading="lazy" decoding="async">
+  </div>
+  <div class="publication-info">
+    <h3 class="pub-title">Differential Privacy Protected Preference Alignment on Survey Derived Data</h3>
+    <p class="pub-authors">Xiuyuan Qi, <strong class="pub-author-self">Yi Wang</strong>, Wenjie Wang<sup>&dagger;</sup>.</p>
+    <p class="pub-meta"><span class="pub-venue">ACML 2026</span></p>
+    <p class="pub-meta pub-links pub-links--row">
+      <span class="paper pub-resource">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper] <span class="pub-coming-soon">(Coming soon)</span></span>
+    </p>
+  </div>
+</article>
+<article class="publication-entry publication-row" data-status="preprint">
+  <div class="publication-media">
+    <span class="publication-venue-badge">Preprint</span>
+    <img src="images/GPO-V.svg" alt="Response patterns of diffusion and autoregressive vision-language models in GPO-V" width="469" height="177" loading="lazy" decoding="async">
+  </div>
+  <div class="publication-info">
+    <h3 class="pub-title">GPO-V: Jailbreak Diffusion Vision Language Model by Global Probability Optimization</h3>
+    <p class="pub-authors">Yu Pan, Andi Zhang, <strong class="pub-author-self">Yi Wang</strong>, Sibei Yang, Wenjie Wang<sup>&dagger;</sup>.</p>
+    <p class="pub-meta"><span class="pub-venue">Preprint</span></p>
+    <p class="pub-meta pub-links pub-links--row">
+      <a class="paper" href="https://arxiv.org/pdf/2605.07399" target="_blank" rel="noopener">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
+    </p>
+  </div>
+</article>
+<article class="publication-entry publication-row" data-status="accepted">
+  <div class="publication-media">
+    <span class="publication-venue-badge">ACL 2025</span>
+    <img src="images/DELMAN_method.jpg" alt="Overview of DELMAN: Dynamic defense against language model jailbreaking with model editing" width="2867" height="2388" loading="lazy" decoding="async">
+  </div>
+  <div class="publication-info">
+    <h3 class="pub-title">DELMAN: Dynamic Defense Against Large Language Model Jailbreaking with Model Editing</h3>
+    <p class="pub-authors"><strong class="pub-author-self">Yi Wang</strong>, Fenghua Weng, Sibei Yang, Zhan Qin, Minlie Huang, Wenjie Wang<sup>&dagger;</sup>.</p>
+    <p class="pub-meta"><span class="pub-venue">ACL 2025</span></p>
+    <p class="pub-meta pub-links pub-links--row">
+      <a class="paper" href="https://arxiv.org/abs/2502.11647" target="_blank" rel="noopener">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
+      <a class="code" href="https://github.com/wanglne/DELMAN" target="_blank" rel="noopener">[<i class="fab fa-github" aria-hidden="true"></i>Code]</a>
     </p>
   </div>
 </article>
