@@ -73,7 +73,7 @@ Publications
 </article>
 
 <article class="publication-entry publication-row" data-status="accepted">
-  <div class="publication-media">
+  <div class="publication-media publication-media--image-bottom">
     <span class="publication-venue-badge">NeurIPS 2026</span>
     <img src="images/SaLR_method.svg" alt="Overview of Safety-aware Latent Space Reasoning (SaLR)" width="832" height="337" loading="lazy" decoding="async">
   </div>
@@ -82,77 +82,42 @@ Publications
     <p class="pub-authors"><strong class="pub-author-self">Yi Wang</strong><sup>*</sup>, Wenjie Wang<sup>*&dagger;</sup>, Hongye Qiu, Yu Pan.</p>
     <p class="pub-meta"><span class="pub-venue">NeurIPS 2026</span></p>
     <p class="pub-meta pub-links pub-links--row">
-      <a class="paper" href="/images/SaLR_NIPS2026.pdf" target="_blank" rel="noopener">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
+      <a class="paper" href="/papers/SaLR_NIPS2026.pdf" target="_blank" rel="noopener">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
       <a class="code" href="https://github.com/wanglne/SaLR">[<i class="fab fa-github" aria-hidden="true"></i>Code]</a>
     </p>
   </div>
 </article>
 
 <article class="publication-entry publication-row" data-status="accepted">
-  <div class="publication-media pub-media-rotator" data-interval="4000">
-    <span class="publication-venue-badge">ACL 3026</span>
-    <img src="images/sleep.png" alt="Overview of SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models" width="320" height="180" loading="lazy">
+  <div class="publication-media">
+    <span class="publication-venue-badge">TPAMI 2026</span>
+    <img src="images/EVA_method.png" alt="Overview of EVA: Editing for Versatile Alignment against Jailbreaks" width="2369" height="751" loading="lazy" decoding="async">
   </div>
   <div class="publication-info">
-    <h3 class="pub-title">SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</h3>
-    <p class="pub-authors"><a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su&dagger;</strong></a>.</p>
-    <p class="pub-meta"><span class="pub-venue">ACL 3026 Oral</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
+    <h3 class="pub-title">EVA: Editing for Versatile Alignment against Jailbreaks</h3>
+    <p class="pub-authors"><strong class="pub-author-self">Yi Wang</strong>, Hongye Qiu, Yue Xu, Sibei Yang, Zhan Qin, Minlie Huang, Wenjie Wang<sup>&dagger;</sup>.</p>
+    <p class="pub-meta"><span class="pub-venue">IEEE TPAMI 2026</span></p>
+    <p class="pub-meta pub-links pub-links--row">
+      <a class="paper" href="https://arxiv.org/abs/2605.14750">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
+      <a class="ieee" href="https://ieeexplore.ieee.org/abstract/document/11523146">[<i class="fas fa-external-link-alt" aria-hidden="true"></i>IEEE]</a>
+      <a class="code" href="https://github.com/wanglne/EVA">[<i class="fab fa-github" aria-hidden="true"></i>Code]</a>
+      <a class="models" href="https://huggingface.co/collections/wanglne/eva-editing-for-versatile-alignment-against-jailbreaks">[<img class="hf-icon" src="/images/huggingface-logo.svg" width="95" height="88" alt="" aria-hidden="true" loading="lazy" decoding="async">Models]</a>
+    </p>
   </div>
 </article>
-
 <article class="publication-entry publication-row" data-status="accepted">
-  <div class="publication-media pub-media-rotator" data-interval="4000">
-    <span class="publication-venue-badge">ICLR 3026</span>
-    <img src="images/gpu.png" alt="Overview of Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress" width="320" height="180" loading="lazy">
+  <div class="publication-media publication-media--image-bottom">
+    <span class="publication-venue-badge">NLPCC 2026</span>
+    <img src="images/DRGAP.png" alt="Overview of DR.GAP: Gender-aware prompting with decoupled reasoning" width="3529" height="1434" loading="lazy" decoding="async">
   </div>
   <div class="publication-info">
-    <h3 class="pub-title">Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</h3>
-    <p class="pub-authors">NVIDIA RTX 9090*, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su*</strong></a>, <a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang&dagger;</strong></a>.</p>
-    <p class="pub-meta"><span class="pub-venue">ICLR 3026</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
-  </div>
-</article>
-
-<article class="publication-entry publication-row" data-status="accepted">
-  <div class="publication-media pub-media-rotator" data-interval="4000">
-    <span class="publication-venue-badge">ICML 3026</span>
-    <img src="images/noodle.png" alt="Overview of Instant Noodles as a Scalable Training Infrastructure for Graduate Students" width="320" height="180" loading="lazy">
-  </div>
-  <div class="publication-info">
-    <h3 class="pub-title">Instant Noodles as a Scalable Training Infrastructure for Graduate Students</h3>
-    <p class="pub-authors">Noodles&Dagger;, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su*</strong></a>, <a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang&dagger;</strong></a>.</p>
-    <p class="pub-meta"><span class="pub-venue">ICML 3026</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
-  </div>
-</article>
-
-<article class="publication-entry publication-row publication-row--text" data-status="accepted">
-  <div class="publication-info">
-    <h3 class="pub-title">SleepFormer v5: Towards Fully Autonomous Deadline Extension via Large Language Models</h3>
-    <p class="pub-authors"><a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su&dagger;</strong></a>.</p>
-    <p class="pub-meta"><span class="pub-venue">ACL 3030 Oral</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
-  </div>
-</article>
-
-<article class="publication-entry publication-row publication-row--text" data-status="accepted">
-  <div class="publication-info">
-    <h3 class="pub-title">SleepFormer v4: Towards Fully Autonomous Deadline Extension via Large Language Models</h3>
-    <p class="pub-authors"><a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su&dagger;</strong></a>.</p>
-    <p class="pub-meta"><span class="pub-venue">ACL 3029 Oral</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
-  </div>
-</article>
-
-<article class="publication-entry publication-row publication-row--text" data-status="accepted">
-  <div class="publication-info">
-    <h3 class="pub-title">SleepFormer v3: Towards Fully Autonomous Deadline Extension via Large Language Models</h3>
-    <p class="pub-authors"><a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su&dagger;</strong></a>.</p>
-    <p class="pub-meta"><span class="pub-venue">ACL 3028 Oral</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
-  </div>
-</article>
-
-<article class="publication-entry publication-row publication-row--text" data-status="accepted">
-  <div class="publication-info">
-    <h3 class="pub-title">SleepFormer v2: Towards Fully Autonomous Deadline Extension via Large Language Models</h3>
-    <p class="pub-authors"><a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>, <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su&dagger;</strong></a>.</p>
-    <p class="pub-meta"><span class="pub-venue">ACL 3027 Oral</span> <span class="pub-links"><a class="paper" href=""><i class="fas fa-file-alt" aria-hidden="true"></i> [Paper]</a><a class="code" href=""><i class="fab fa-github" aria-hidden="true"></i> [Code]</a></span></p>
+    <h3 class="pub-title">DR.GAP: Mitigating Bias in Large Language Models using Gender-Aware Prompting with Decoupled Reasoning</h3>
+    <p class="pub-authors">Hongye Qiu<sup>*</sup>, Yue Xu<sup>*</sup>, <strong class="pub-author-self">Yi Wang</strong>, Meikang Qiu, Wenjie Wang<sup>&dagger;</sup>.</p>
+    <p class="pub-meta"><span class="pub-venue">NLPCC 2026</span></p>
+    <p class="pub-meta pub-links pub-links--row">
+      <a class="paper" href="https://arxiv.org/abs/2502.11603">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
+      <a class="code" href="https://github.com/davidwye/DRGAP-main">[<i class="fab fa-github" aria-hidden="true"></i>Code]</a>
+    </p>
   </div>
 </article>
 </div>
