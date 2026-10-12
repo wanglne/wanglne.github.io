@@ -16,6 +16,14 @@
     unicode-range: U+2E80-2EFF, U+3000-303F, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+FF00-FFEF;
 }
 html { font-size: 15px; }
+@font-face {
+    font-family: "Mobile Name Serif";
+    src: url("/assets/fonts/noto-serif-sc/noto-serif-sc-name-700.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    unicode-range: U+4E00, U+738B;
+}
 body.homepage {
     background-color: #fff;
     font-size: 15px;
@@ -424,6 +432,7 @@ body.homepage .author__urls .author__email-options a {
 }
 body.homepage .page__content { overflow-wrap: anywhere; }
 @media (max-width: 924px) {
+    body.homepage .author__name-cjk { font-family: "Mobile Name Serif", serif; }
     body.homepage .sidebar { position: relative; }
     body.homepage .author__urls-wrapper { position: static; }
     body.homepage .author__urls {

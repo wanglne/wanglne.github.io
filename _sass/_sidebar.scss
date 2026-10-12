@@ -185,6 +185,12 @@
   display: block;
 }
 
+.author__contact-label--mobile { display: none; }
+@media (max-width: 924px) {
+  .author__contact-label--desktop { display: none; }
+  .author__contact-label--mobile { display: inline; }
+}
+
 .author__urls {
   display: none;
   position: absolute;
