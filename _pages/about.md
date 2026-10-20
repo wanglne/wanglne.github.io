@@ -49,6 +49,7 @@ Publications
     <p class="pub-meta"><span class="pub-venue">Preprint</span></p>
     <p class="pub-meta pub-links pub-links--row">
       <a class="paper" href="https://arxiv.org/abs/2610.10623">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
+      <a class="website" href="https://wanglne.github.io/LoopOPD-page/" target="_blank" rel="noopener">[<i class="fas fa-globe" aria-hidden="true"></i>Website]</a>
       <span class="code pub-resource">[<i class="fab fa-github" aria-hidden="true"></i>Code] <span class="pub-coming-soon">(Coming soon)</span></span>
       <span class="models pub-resource">[<img class="hf-icon" src="/images/huggingface-logo.svg" width="95" height="88" alt="" aria-hidden="true" loading="lazy" decoding="async">Models] <span class="pub-coming-soon">(Coming soon)</span></span>
     </p>
@@ -135,7 +136,7 @@ Publications
     <p class="pub-authors">Xiuyuan Qi, <strong class="pub-author-self">Yi Wang</strong>, Wenjie Wang<sup>&dagger;</sup>.</p>
     <p class="pub-meta"><span class="pub-venue">ACML 2026</span></p>
     <p class="pub-meta pub-links pub-links--row">
-      <span class="paper pub-resource">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper] <span class="pub-coming-soon">(Coming soon)</span></span>
+      <a class="paper" href="https://arxiv.org/abs/2610.16458" target="_blank" rel="noopener">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
     </p>
   </div>
 </article>
