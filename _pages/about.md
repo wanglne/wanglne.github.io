@@ -17,12 +17,12 @@ News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-    <li><time class="news-date" datetime="2026-09">[2026.09]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>SaLR</strong> was accepted to <strong class="news-venue-highlight">NeurIPS 2026</strong>!</span></li>
-    <li><time class="news-date" datetime="2026-09">[2026.09]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;One paper was accepted to <strong>ACML 2026</strong>!</span></li>
-    <li><time class="news-date" datetime="2026-08">[2026.08]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;One paper was accepted to <strong>NLPCC 2026</strong>!</span></li>
+    <li><time class="news-date" datetime="2026-09">[2026.09]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>SaLR</strong> was accepted to <strong>NeurIPS 2026</strong>!</span></li>
+    <li><time class="news-date" datetime="2026-09">[2026.09]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;One paper was accepted to ACML 2026!</span></li>
+    <li><time class="news-date" datetime="2026-08">[2026.08]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;One paper was accepted to NLPCC 2026!</span></li>
     <li><time class="news-date" datetime="2026-06">[2026.06]</time>&nbsp;<span class="news-content">🎓🎓&nbsp;I officially became a Ph.D. student at ShanghaiTech University!</span></li>
-    <li><time class="news-date" datetime="2026-05">[2026.05]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>EVA</strong> was accepted for publication in <strong class="news-venue-highlight">IEEE TPAMI 2026</strong>!</span></li>
-    <li><time class="news-date" datetime="2025-05">[2025.05]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>DELMAN</strong> was accepted to <strong class="news-venue-highlight">ACL 2025</strong>!</span></li>
+    <li><time class="news-date" datetime="2026-05">[2026.05]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>EVA</strong> was accepted for publication in <strong>IEEE TPAMI 2026</strong>!</span></li>
+    <li><time class="news-date" datetime="2025-05">[2025.05]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>DELMAN</strong> was accepted to <strong>ACL 2025</strong>!</span></li>
     <li><time class="news-date" datetime="2024-09">[2024.09]</time>&nbsp;<span class="news-content">🎓🎓&nbsp;I began my master's studies at ShanghaiTech University!</span></li>
   </ul>
 </div>
