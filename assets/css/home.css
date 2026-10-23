@@ -92,6 +92,7 @@ body.homepage .inline-affiliation img {
 .news-date { color: #4b5563; font-weight: 600; margin-right: 0.2em; }
 .news-box .news-date { margin-right: 0; }
 .news-content { color: #20252d; }
+.news-box .news-venue-highlight { color: var(--accent-color); }
 
 /* Awards. */
 .award-list .news-date { margin-right: 0.65em; }

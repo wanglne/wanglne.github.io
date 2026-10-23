@@ -17,12 +17,12 @@ News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-    <li><time class="news-date" datetime="2026-09">[2026.09]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>SaLR</strong> was accepted to <strong>NeurIPS 2026</strong>!</span></li>
+    <li><time class="news-date" datetime="2026-09">[2026.09]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>SaLR</strong> was accepted to <strong class="news-venue-highlight">NeurIPS 2026</strong>!</span></li>
     <li><time class="news-date" datetime="2026-09">[2026.09]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;One paper was accepted to <strong>ACML 2026</strong>!</span></li>
     <li><time class="news-date" datetime="2026-08">[2026.08]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;One paper was accepted to <strong>NLPCC 2026</strong>!</span></li>
     <li><time class="news-date" datetime="2026-06">[2026.06]</time>&nbsp;<span class="news-content">🎓🎓&nbsp;I officially became a Ph.D. student at ShanghaiTech University!</span></li>
-    <li><time class="news-date" datetime="2026-05">[2026.05]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>EVA</strong> was accepted for publication in <strong>IEEE TPAMI 2026</strong>!</span></li>
-    <li><time class="news-date" datetime="2025-05">[2025.05]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>DELMAN</strong> was accepted to <strong>ACL 2025</strong>!</span></li>
+    <li><time class="news-date" datetime="2026-05">[2026.05]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>EVA</strong> was accepted for publication in <strong class="news-venue-highlight">IEEE TPAMI 2026</strong>!</span></li>
+    <li><time class="news-date" datetime="2025-05">[2025.05]</time>&nbsp;<span class="news-content">🎉🎉&nbsp;<strong>DELMAN</strong> was accepted to <strong class="news-venue-highlight">ACL 2025</strong>!</span></li>
     <li><time class="news-date" datetime="2024-09">[2024.09]</time>&nbsp;<span class="news-content">🎓🎓&nbsp;I began my master's studies at ShanghaiTech University!</span></li>
   </ul>
 </div>
@@ -112,6 +112,24 @@ Publications
   </div>
 </article>
 <article class="publication-entry publication-row" data-status="accepted">
+  <div class="publication-media">
+    <span class="publication-venue-badge">ACL 2025</span>
+    <img src="images/DELMAN_method.jpg" alt="Overview of DELMAN: Dynamic defense against language model jailbreaking with model editing" width="2867" height="2388" loading="lazy" decoding="async">
+  </div>
+  <div class="publication-info">
+    <h3 class="pub-title">DELMAN: Dynamic Defense Against Large Language Model Jailbreaking with Model Editing</h3>
+    <p class="pub-authors"><strong class="pub-author-self">Yi Wang</strong>, Fenghua Weng, Sibei Yang, Zhan Qin, Minlie Huang, Wenjie Wang<sup>&dagger;</sup>.</p>
+    <p class="pub-meta"><span class="pub-venue">ACL 2025</span></p>
+    <p class="pub-meta pub-links pub-links--row">
+      <a class="paper" href="https://arxiv.org/abs/2502.11647" target="_blank" rel="noopener">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
+      <a class="code" href="https://github.com/wanglne/DELMAN" target="_blank" rel="noopener">[<i class="fab fa-github" aria-hidden="true"></i>Code]</a>
+      <a class="website" href="https://wanglne.github.io/DELMAN-page/" target="_blank" rel="noopener">[<i class="fas fa-globe" aria-hidden="true"></i>Website]</a>
+      <a class="rednote" href="https://xhslink.cn/o/68AriK2KclL" target="_blank" rel="noopener" title="Read on Xiaohongshu (RedNote)">[<i class="fas fa-book" aria-hidden="true"></i>RedNote]</a>
+    </p>
+  </div>
+</article>
+
+<article class="publication-entry publication-row" data-status="accepted">
   <div class="publication-media publication-media--image-bottom">
     <span class="publication-venue-badge">NLPCC 2026</span>
     <img src="images/DRGAP.png" alt="Overview of DR.GAP: Gender-aware prompting with decoupled reasoning" width="3529" height="1434" loading="lazy" decoding="async">
@@ -154,23 +172,7 @@ Publications
     </p>
   </div>
 </article>
-<article class="publication-entry publication-row" data-status="accepted">
-  <div class="publication-media">
-    <span class="publication-venue-badge">ACL 2025</span>
-    <img src="images/DELMAN_method.jpg" alt="Overview of DELMAN: Dynamic defense against language model jailbreaking with model editing" width="2867" height="2388" loading="lazy" decoding="async">
-  </div>
-  <div class="publication-info">
-    <h3 class="pub-title">DELMAN: Dynamic Defense Against Large Language Model Jailbreaking with Model Editing</h3>
-    <p class="pub-authors"><strong class="pub-author-self">Yi Wang</strong>, Fenghua Weng, Sibei Yang, Zhan Qin, Minlie Huang, Wenjie Wang<sup>&dagger;</sup>.</p>
-    <p class="pub-meta"><span class="pub-venue">ACL 2025</span></p>
-    <p class="pub-meta pub-links pub-links--row">
-      <a class="paper" href="https://arxiv.org/abs/2502.11647" target="_blank" rel="noopener">[<i class="fas fa-file-alt" aria-hidden="true"></i>Paper]</a>
-      <a class="code" href="https://github.com/wanglne/DELMAN" target="_blank" rel="noopener">[<i class="fab fa-github" aria-hidden="true"></i>Code]</a>
-      <a class="website" href="https://wanglne.github.io/DELMAN-page/" target="_blank" rel="noopener">[<i class="fas fa-globe" aria-hidden="true"></i>Website]</a>
-      <a class="rednote" href="https://xhslink.cn/o/68AriK2KclL" target="_blank" rel="noopener" title="Read on Xiaohongshu (RedNote)">[<i class="fas fa-book" aria-hidden="true"></i>RedNote]</a>
-    </p>
-  </div>
-</article>
+
 </div>
 <p class="publication-empty" data-publication-empty role="status" hidden>No preprints to display yet.</p>
 
