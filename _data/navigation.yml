@@ -20,7 +20,7 @@ main:
     url: "/#awards"
     
   - title: "CV"
-    url: "/files/weidongtang_resume.pdf"
+    url: "/files/Yi_Wang.pdf"
 
   # - title: "CV-Cn"
   #   url: "/files/chinese_resume.pdf"
